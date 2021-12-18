@@ -21,8 +21,11 @@ class Spell:
 	:param mp_cost: Le coût en MP d'utilisation du sort
 	:param min_level: Le niveau minimal pour l'utiliser
 	"""
-
-	# TODO: __init__
+	def __init__(self, name, power, mp_cost, min_level):
+		self.name = name
+		self.power = power
+		self.mp_cost = mp_cost
+		min_level = min_level
 	pass
 
 # TODO: Déclarer la classe Magician qui étend la classe Character
